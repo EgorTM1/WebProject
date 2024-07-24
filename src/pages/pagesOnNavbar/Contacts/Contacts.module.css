@@ -1,0 +1,47 @@
+p, b, span {
+  font-size: 17px;
+}
+
+.h2 {
+  color: rgb(250, 69, 253);
+  font-size: 30px;
+  margin-top: 20px;
+}
+.allContacts {
+  margin-left: 29px;
+  margin-top: 15px;
+}
+.span {
+  color: rgb(250, 69, 253)
+}
+.span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: all .35s;
+}
+.text {
+  margin-bottom: 25px;
+}
+.tecnicalThings {
+  margin-top: 50px;
+}
+.list {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.images {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+.images > img {
+  width: 50px;
+}
+.images:hover {
+  cursor: pointer;
+}
+.p {
+  margin-bottom: 30px;
+}

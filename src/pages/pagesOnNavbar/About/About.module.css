@@ -1,0 +1,55 @@
+.header {
+  font-size: 30px;
+  color: rgb(234, 68, 231);
+  margin-top: 20px;
+}
+.blockAboutCompany {
+  margin: 15px 0 0 29px;
+}
+.item, .mnogomeb {
+  margin-bottom: 17px;
+  font-size: 17px;
+}
+.mnogomeb {
+  margin-top: 23px;
+}
+.mnogo {
+  color: rgb(250, 69, 253);
+  font-weight: bold;
+}
+.meb {
+  color: rgb(123, 128, 136);
+  font-weight: bold;
+}
+.imageYotube:hover {
+  transform: scale(1.01);
+  transition: all .4s linear;
+}
+.imageYotube {
+  margin-top: 20px;
+}
+
+
+.inro {
+  font-size: 24px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.list_item {
+  margin-top: 17px;
+  display: flex;
+  gap: 5px;
+}
+.span {
+  color: rgb(220, 39, 236);
+}
+.span:hover {
+  cursor: pointer;
+}
+
+.list_item_text, .span {
+  font-size: 18px;
+}
+.list {
+  margin-bottom: 40px;
+}

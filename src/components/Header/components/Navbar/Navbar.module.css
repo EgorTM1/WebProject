@@ -1,0 +1,54 @@
+.navbar {
+  margin-top: 10px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+.list_item {
+  display: flex;
+  gap: 10px;
+}
+.select {
+  border: none;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 27px;
+}
+.logIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.split {
+  margin: 0 5px;
+}
+.city:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all .4s;
+}
+.list_itemPict {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.Link {
+  color: black;
+}
+.Link:hover {
+  transform: scale(1.05);
+  transition: all .35s;
+}
+
+.LogIn:hover, .registration:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all .35s;
+}

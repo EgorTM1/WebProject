@@ -1,0 +1,19 @@
+.modal {
+  position: absolute;
+  top: 24%;
+  left: 14%;
+  border-radius: 7px;
+  box-shadow: 2px 2px 15px;
+  padding: 10px 20px;
+  z-index: 100;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.list_Item:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+  transition: all .5s;
+}

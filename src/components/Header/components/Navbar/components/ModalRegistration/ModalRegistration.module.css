@@ -1,0 +1,56 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 410px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+}
+.modal::backdrop {
+  backdrop-filter: blur(1.5px);
+}
+.h2 {
+  margin: 5px 0 16px;
+  font-size: 29px;
+  font-weight: bold;
+  opacity: 0.82;
+  color: rgb(248, 75, 228);
+}
+.input {
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 2px 0 2px 10px;
+  height: 36px;
+  margin-bottom: 7px;
+  background-color: #dfdede;
+}
+.personalData {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 8px 0 18px;
+}
+.span {
+  color: rgb(248, 75, 228);
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0.82;
+}
+.checkbox {
+  width: 19px;
+  height: 19px;
+}
+.text {
+  font-size: 13px;
+}
+.input:focus {
+  background-color: #fff;
+  border: 1px solid black;
+}
+.divForButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}

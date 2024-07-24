@@ -1,0 +1,38 @@
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+.contactsInfo {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.favoritesProd {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 200px;
+}
+.btn {
+  background: linear-gradient(#8dba32, #83ab32);
+  padding: 0 40px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+.btn:hover {
+  background: linear-gradient(#b2e749,#80a534);
+  transform: scale(1.05);
+  transition: all .3s;
+}
+.like:hover, .basket:hover {
+  transform: scale(1.1);
+  transition: all .3s;
+}

@@ -1,0 +1,21 @@
+.search {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+.input {
+  background-color: #fff;
+  padding: 0 10px;
+  width: 100%;
+  border-radius: 4px;
+  height: 37.5px;
+  margin: 0 0 0 10px;
+}
+.img {
+  margin: 0 10px 0 10px;
+}
+.img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all .4s;
+}

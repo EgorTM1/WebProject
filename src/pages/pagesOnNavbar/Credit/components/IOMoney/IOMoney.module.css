@@ -1,0 +1,42 @@
+.text {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.imageIOMoney {
+  margin-top: 20px;
+}
+.headerDescription {
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0.85;
+  margin: 55px 0 8px 0;
+}
+.divElement, .divElement1 {
+  margin-bottom: 20px;
+}
+.h2 {
+  font-size: 23px;
+}
+.divElement1 {
+  margin-top: 22px;
+}
+.text2 {
+  font-size: 17px;
+  color: rgb(250, 69, 253);
+  margin-bottom: 10px;
+}
+.text2:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: all .3s linear;
+}
+.h2Conditions {
+  font-size: 35px;
+}
+.h3 {
+  margin: 7px 0;
+  font-size: 22px;
+}
+.CreditSum {
+  margin-top: 25px;
+}
